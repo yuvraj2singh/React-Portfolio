@@ -1,7 +1,7 @@
 import ProjectLeft from "./Projects/ProjectLeft";
 import ProjectRight from "./Projects/ProjectRight";
 import { motion } from "framer-motion";
-import { ltr, rtl } from "../framerFunctions";
+import { ltr } from "../framerFunctions";
 
 const Projects = () => {
   return (
