@@ -13,12 +13,14 @@ const Technologies = () => {
         variants={rtl(0)}
         initial="hidden"
         transition={{duration:.5}}
+        viewport={{ once: true }}
         className="text-center text-6xl sm:text-7xl text-gray-400 hover:text-white transition-all duration-100">My Skills <span className="text-gray-500 text-2xl">(Technologies)</span></motion.h1>
         <motion.div
         whileInView={{x:0,opacity:1}}
         variants={ltr(0.25)}
         initial="hidden"
         transition={{duration:.75}}
+        viewport={{ once: true }}
         className="flex gap-8 sm:gap-10 flex-wrap my-12 mx-10 justify-center items-center">
             <motion.div
             variants={up_down(0)}

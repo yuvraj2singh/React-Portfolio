@@ -11,6 +11,7 @@ const Projects = () => {
         variants={ltr(0)}
         initial="hidden"
         transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
         className="text-center text-6xl sm:text-7xl text-gray-400 hover:text-white transition-all duration-100">
         Projects
       </motion.h1>
