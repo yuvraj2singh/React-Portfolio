@@ -5,7 +5,7 @@ import Technologies from "./Components/Technologies.js";
 import Projects from "./Components/Projects.js";
 import Contact from "./Components/Contact.js";
 import CopyRight from "./Components/CopyRight.js";
-
+import Navigations from "./Components/Navigations.js";
 function App() {
   return (
     <div className="text-white selection:bg-orange-500 selection:text-white scroll-smooth">
@@ -17,6 +17,7 @@ function App() {
         <Technologies />
         <Projects />
         <Contact />
+        <Navigations />
         <CopyRight />
       </div>
     </div>

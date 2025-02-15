@@ -22,7 +22,7 @@ const Intro = () => {
   }, []);
 
   return (
-    <div className="mt-20 sm:mt-8 flex items-center justify-center lg:justify-between flex-wrap ">
+    <div className="mt-20 sm:mt-8 flex items-center justify-center lg:justify-between flex-wrap " id="Intro">
       <div className="">
         <h1 className="text-6xl mb-10 ">Yuvraj singh</h1>
         <span ref={typedRef} className="text-2xl bg-gradient-to-r from-red-100 via-white to-blue-700 bg-clip-text text-transparent "></span>
