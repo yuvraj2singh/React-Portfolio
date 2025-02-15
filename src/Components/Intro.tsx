@@ -46,7 +46,8 @@ const Intro = () => {
           Structure and Algorithm and MERN stack
         </motion.p>
       </div>
-      <motion.img
+      {
+        <motion.img
       variants={rtl(1.2)}
       initial="hidden"
       animate="visible"
@@ -54,7 +55,10 @@ const Intro = () => {
       className="w-[400px] sm:opacity-90 rounded-4xl"
       src="/Images/Profile.png"
       alt="Yuvraj Singh"
+      loading="lazy"
       />
+      }
+      
     </div>
   );
 };
