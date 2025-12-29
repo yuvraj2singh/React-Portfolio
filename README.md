@@ -18,4 +18,4 @@ Welcome to my **Personal Portfolio Website**! This is a showcase of my skills, p
 
 📌 Live Demo
 
-🔗 View Live Website
+🔗 https://react-portfolio-yuv2sin.netlify.app
