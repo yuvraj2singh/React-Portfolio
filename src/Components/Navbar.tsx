@@ -15,6 +15,7 @@ const Navbar = () => {
       <a className="border-b hover:border-b-gray-400 hover:text-gray-400 transition-all duration-300" href="#About">About</a>
       <a className="border-b hover:border-b-gray-400 hover:text-gray-400 transition-all duration-300" href="#Projects">Projects</a>
       <a className="border-b hover:border-b-gray-400 hover:text-gray-400 transition-all duration-300" href="#Skills">Skills</a>
+      <a className="border-b hover:border-b-gray-400 hover:text-gray-400 transition-all duration-300" href="#Education">Education</a>
       <a className="border-b hover:border-b-gray-400 hover:text-gray-400 transition-all duration-300" href="#Contact">Contact</a>
       </div>
       

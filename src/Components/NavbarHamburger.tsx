@@ -33,6 +33,7 @@ const NavbarHamburger = () => {
           <a href="#About" className="block py-2" onClick={()=>setIsOpen(!isOpen)}>About</a>
           <a href="#Projects" className="block py-2" onClick={()=>setIsOpen(!isOpen)}>Projects</a>
           <a href="#Skills" className="block py-2" onClick={()=>setIsOpen(!isOpen)}>Skills</a>
+          <a href="#Education" className="block py-2" onClick={()=>setIsOpen(!isOpen)}>Education</a>
           <a href="#Contact" className="block py-2" onClick={()=>setIsOpen(!isOpen)}>Contact</a>
         </div>
       </div>

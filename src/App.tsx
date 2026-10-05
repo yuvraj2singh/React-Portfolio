@@ -2,6 +2,7 @@ import Navbar from "./Components/Navbar.js";
 import Intro from "./Components/Intro.js";
 import About from "./Components/About.js";
 import Technologies from "./Components/Technologies.js";
+import Education from "./Components/Education.js";
 import Projects from "./Components/Projects.js";
 import Contact from "./Components/Contact.js";
 import CopyRight from "./Components/CopyRight.js";
@@ -15,6 +16,7 @@ function App() {
         <Intro />
         <About />
         <Technologies />
+        <Education />
         <Projects />
         <Contact />
         <Navigations />
