@@ -20,7 +20,7 @@ const Navbar = () => {
       
       {/* Social Icons */}
       <div className="flex gap-3 sm:gap-4 text-3xl text-white">
-        <a href="https://www.instagram.com/notmeyuvraj?igsh=eDlzMWRhdnh4aWtq" target="_blank">
+        <a href="https://www.instagram.com/yuvraj0711singh?igsh=eDlzMWRhdnh4aWtq" target="_blank">
           <FaInstagram className="hover:text-pink-400 transition duration-300 cursor-pointer" />
         </a>
         <a href="https://www.linkedin.com/in/yuvrajs212/" target="_blank">

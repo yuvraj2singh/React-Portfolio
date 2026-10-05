@@ -24,7 +24,7 @@ const Intro = () => {
 
   return (
     <div
-      className="mt-20 sm:mt-8 flex items-center justify-center lg:justify-between flex-wrap "
+      className="mt-20 sm:mt-8 flex items-center justify-center lg:justify-between flex-wrap gap-10"
       id="Intro">
       <div className="">
         <motion.h1
@@ -42,8 +42,7 @@ const Intro = () => {
           initial="hidden"
           animate="visible"
           className="mt-8 w-full sm:w-[500px] text-justify">
-          Python and Java Enthusiast Strongly Dedicated towards learning Data
-          Structure and Algorithm and MERN stack
+          B.Tech CSE student and full-stack developer passionate about building scalable web applications, solving challenging DSA problems, and exploring AI to create impactful, innovative technology.
         </motion.p>
       </div>
       {
@@ -53,7 +52,7 @@ const Intro = () => {
       animate="visible"
       whileHover={{ scale: 1.1, opacity: 1, transition: { duration: 0.4 }}} 
       className="w-[400px] sm:opacity-90 rounded-4xl"
-      src="/Images/Profile.png"
+      src="/Images/Profile.jpeg"
       alt="Yuvraj Singh"
       loading="lazy"
       />

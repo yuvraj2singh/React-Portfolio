@@ -15,6 +15,15 @@ const Projects = () => {
         className="text-center text-6xl sm:text-7xl text-gray-400 hover:text-white transition-all duration-100">
         Projects
       </motion.h1>
+      <ProjectRight
+        title={"Structura"}
+        desc={
+          "Structura is an AI-powered collaborative whiteboard and DSA visualization platform featuring real-time collaboration, interactive data structure visualization, AI-generated canvases, version history, board sharing, comments, and export capabilities."
+        }
+        imgUrl={"/Images/Structura.png"}
+        hostLink={"https://structura-7zu5.onrender.com/"}
+        techs={["Next.Js", "MongoDB", "TAILWIND", "GEMINI", "Socket.IO", "Zustand"]}
+      />
       <ProjectLeft
         title={"Zomato Home UI clone"}
         desc={

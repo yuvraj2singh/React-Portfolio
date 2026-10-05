@@ -1,5 +1,5 @@
 import { FaNodeJs } from "react-icons/fa"
-import { RiBootstrapFill, RiReactjsLine, RiTailwindCssLine } from "react-icons/ri"
+import { RiBootstrapFill, RiReactjsLine, RiTailwindCssLine, RiNextjsFill } from "react-icons/ri"
 import {  SiTypescript } from "react-icons/si"
 import { TbBrandFramerMotion } from "react-icons/tb"
 import { up_down } from "../framerFunctions"
@@ -52,6 +52,11 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className="border-2 border-blue-500 text-purple-500 bg-white rounded-3xl p-3 text-7xl hover:opacity-80 transition-all duration-100"><RiBootstrapFill /></motion.div>
+            <motion.div
+            variants={up_down(1.5)}
+            initial="initial"
+            animate="animate"
+            className="border-2 border-blue-500 text-purple-500 bg-white rounded-3xl p-3 text-7xl hover:opacity-80 transition-all duration-100"><RiNextjsFill /></motion.div>
         </motion.div>
     </div>
   )
